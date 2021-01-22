@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainbox">
+        <div id = "heading">
+            <p>Pop Number</p>
+        </div>
+        <div id="instruct">
+            <p>
+                <b>**Instructions:</b> Pop the displayed numbers.<br>
+                For every correct answer score increase by 1 and time's out in <b>1 minute</b>
+            </p>
+        </div>
+        <div id="start">
+            <button type="button" onclick="start()" id="st">Start</button>
+        </div>
+        <div id="end">
+            <p>Ends in:</p>
+            <p id="et"></p>
+        </div>
+        <div id="display">
+            <p id="dis"></p>
+        </div>
+        <div id="score">
+            <p>Score:</p>
+            <p id="sc">0</p>
+        </div>
+        <div id="main">
+            <!--<img src="hammer.jpg" alt="hammer" id="ig">-->
+        </div>
+    </div>
+    <script src="start.js"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+</body>
+</html>
